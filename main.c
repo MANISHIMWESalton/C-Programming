@@ -1,29 +1,29 @@
 #include<stdio.h>
 int main(){
-// //Operaters of three numbers
+//Operaters of three numbers
 
-// //Addition
-//    int number1,number2,number3;
+//Addition
+   int number1,number2,number3;
 
-//    printf("Enter three numbers: ");
-//    scanf("%d %d %d",&number1,&number2,&number3);
-//    int sum = number1+number2+number3;
-//    printf("Addition: %d\n",sum);
+   printf("Enter three numbers: ");
+   scanf("%d %d %d",&number1,&number2,&number3);
+   int sum = number1+number2+number3;
+   printf("Addition: %d\n",sum);
 
-// //Substuction
-// int remain = number1-number2-number3;
-//  printf("Substuction: %d\n",remain);
+//Substuction
+int remain = number1-number2-number3;
+ printf("Substuction: %d\n",remain);
 
-//  //Multiplication
-// int multiple = number1*number2*number3;
-// printf("Multiplication: %d\n",multiple);
+ //Multiplication
+int multiple = number1*number2*number3;
+printf("Multiplication: %d\n",multiple);
 
-// //Division
-// int division = number1/number2/number3;
-// printf("Division: %d\n",division);
-// //Modulus
-// int modulus = number1%number2%number3;
-// printf("Remainder: %d\n",modulus);
+//Division
+int division = number1/number2/number3;
+printf("Division: %d\n",division);
+//Modulus
+int modulus = number1%number2%number3;
+printf("Remainder: %d\n",modulus);
 
 
 // lab activity Add two numbers
