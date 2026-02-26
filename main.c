@@ -28,7 +28,7 @@ printf("Remainder: %d\n",modulus);
 
 // lab activity Add two numbers
 
-int number1 ,number2;
+// int number1 ,number2;
 int result;
 printf("Enter Two numbers:");
 scanf("%d %d",&number1,&number2);
@@ -43,6 +43,17 @@ printf("Enter length and width: ");
 scanf("%d %d",&length,&width);
  area = (float) length*width; 
  printf("The area of rectangle is : %.2f \n",area);
+//Write a C program to input name, age, and marks, then display the entered details
+char name[30];
+int age;
+float marks;
+printf("Enter your Name: \n");
+scanf("%s",name);
+printf("Enter your Age: \n");
+scanf("%d",&age);
+printf("Enter your Marks: ");
+scanf("%f",&marks);
+printf("Hello %s, you are %d years old. Your marks are %.2f\n", name, age, marks);
 
     return 0;
 }
