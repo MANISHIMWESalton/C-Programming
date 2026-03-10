@@ -55,5 +55,12 @@ printf("Enter your Marks: ");
 scanf("%f",&marks);
 printf("Hello %s, you are %d years old. Your marks are %.2f\n", name, age, marks);
 
+//condition statement
+int Marks = 60;
+if(Marks>=50){
+    printf("pass \n");
+}else{
+    printf("Fail \n");
+}
     return 0;
 }
