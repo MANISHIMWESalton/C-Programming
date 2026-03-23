@@ -19,11 +19,11 @@ int main(){
         count++;
     }
     int total = 0;
-    int number;
+    int number2;
     printf("Enter 5 numbers:");
     for(int i = 1;i<=5;i++){
-        scanf("%d",&number);
-        total += number;
+        scanf("%d",&number2);
+        total += number2;
     }
     printf(" The Total number = %d \n",total);
 
@@ -37,7 +37,7 @@ while (number1 != -1)
     sum+=number1;
     scanf("%d",&number1);
 }
-printf("%d\n",sum);
+printf("The Sum = %d\n",sum);
 
     return 0;
 }
