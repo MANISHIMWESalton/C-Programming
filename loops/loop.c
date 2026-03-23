@@ -26,5 +26,18 @@ int main(){
         total += number;
     }
     printf(" The Total number = %d \n",total);
+
+// Sentinel loop
+    int number1;
+    int sum = 0;
+    printf("Enter number: ");
+scanf("%d",&number1);
+while (number1 != -1)
+{
+    sum+=number1;
+    scanf("%d",&number1);
+}
+printf("%d\n",sum);
+
     return 0;
 }
