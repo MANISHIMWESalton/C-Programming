@@ -18,6 +18,7 @@ int main(){
         printf("Counted number: %d \n",count);
         count++;
     }
+    // for loop
     int total = 0;
     int number2;
     printf("Enter 5 numbers:");

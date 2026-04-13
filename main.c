@@ -1,5 +1,10 @@
 #include<stdio.h>
 int main(){
+// My first program
+
+printf("Hello world!");
+printf("Welcome to C programming");
+
 //Operaters of three numbers
 
 //Addition
@@ -56,6 +61,7 @@ scanf("%f",&marks);
 printf("Hello %s, you are %d years old. Your marks are %.2f\n", name, age, marks);
 
 //condition statement
+
 int Marks = 60;
 if(Marks>=50){
     printf("pass \n");
